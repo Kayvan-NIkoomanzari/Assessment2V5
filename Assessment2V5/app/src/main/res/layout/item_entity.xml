@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvAssetType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asset Type" />
+
+        <TextView
+            android:id="@+id/tvTicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ticker" />
+
+        <TextView
+            android:id="@+id/tvCurrentPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Price" />
+
+        <TextView
+            android:id="@+id/tvDividendYield"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dividend Yield" />
+
+        <Button
+            android:id="@+id/btnShowDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Description" />
+
+    </LinearLayout>
+
+
