@@ -1,7 +1,6 @@
 package com.example.assessment2v5.ui.dashboard
 
-//class EntityViewHolder {
-//}
+
 
 
 import android.view.View
@@ -10,7 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.assessment2v5.R
 import com.example.assessment2v5.data.Entity
-
+//EntityViewHolder for recycle View
 class EntityViewHolder(view: View, private val onButtonClick: (Entity) -> Unit) : RecyclerView.ViewHolder(view) {
 
     private val assetTypeTextView: TextView = view.findViewById(R.id.tvAssetType)

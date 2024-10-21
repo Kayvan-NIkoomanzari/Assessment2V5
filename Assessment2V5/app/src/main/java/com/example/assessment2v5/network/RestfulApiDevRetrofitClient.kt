@@ -8,7 +8,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import javax.inject.Inject
 import javax.inject.Singleton
-
+// A Retrofit client for making API calls
 @Singleton
 class RestfulApiDevRetrofitClient @Inject constructor() {
 

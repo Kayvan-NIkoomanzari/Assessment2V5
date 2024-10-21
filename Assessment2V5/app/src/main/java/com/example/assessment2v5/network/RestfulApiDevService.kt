@@ -7,6 +7,7 @@ import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
 import retrofit2.http.Path
+//API Interface
 interface RestfulApiDevService {
 
     @POST("/footscray/auth")
