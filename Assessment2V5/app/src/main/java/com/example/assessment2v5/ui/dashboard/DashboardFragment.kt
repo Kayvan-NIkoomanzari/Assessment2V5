@@ -37,8 +37,13 @@ class DashboardFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         // Set up the navigation function similar to the example
-        navigationFunction = { entity ->
+      /*  navigationFunction = { entity ->
             val action = DashboardFragmentDirections.actionDashboardFragmentToDetailsFragment(entity.description)
+            findNavController().navigate(action)
+        }*/
+        navigationFunction = { entity ->
+            val description = entity.description ?: "No description available"
+            val action = DashboardFragmentDirections.actionDashboardFragmentToDetailsFragment(description)
             findNavController().navigate(action)
         }
 
